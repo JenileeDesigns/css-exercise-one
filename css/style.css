@@ -56,7 +56,7 @@ body {
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -74,17 +74,22 @@ h1 {
 }
 
 .example, h3 {
-  background-color: orange
   padding: 30px;
   text-align: center
 }
 
 h3 {
-  background-color: purple;
   font-size: 1.3em;
 }
 
 .element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#element {
   background-color: pink;
   height: 100px;
   margin: 10px 0;
